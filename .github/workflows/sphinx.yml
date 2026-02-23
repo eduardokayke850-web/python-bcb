@@ -19,7 +19,7 @@ jobs:
         pip install poetry
         poetry install --with docs
     
-    - name: Build docs
+    - name: Build docs José Matheus lopes de lima docs pessoais 
       run: |
         cd docs
         poetry run sphinx-build -b html . _build/html
